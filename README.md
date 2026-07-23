@@ -1,50 +1,47 @@
 # Polynomial Calculator & Calculus Toolkit
 
-A modular, menu-driven C++ application designed to perform polynomial arithmetic and fundamental calculus operations. The project is built using Object-Oriented Programming (OOP) principles and demonstrates modular software design, file handling, and the use of the C++ Standard Template Library (STL).
+A modular, menu-driven C++ application that performs polynomial arithmetic operations and fundamental calculus computations. The project is designed using Object-Oriented Programming (OOP) principles with a clean separation of interface and implementation, making it suitable for academic learning and software engineering practice.
 
 ---
 
-## 📖 Overview
+## 📖 Project Description
 
-The **Polynomial Calculator & Calculus Toolkit** is a console-based application that allows users to create, manipulate, evaluate, and analyze polynomial expressions. Along with arithmetic operations, the application provides essential calculus functionalities such as differentiation and integration.
+This application enables users to create, manipulate, evaluate, and analyze polynomial expressions through an interactive console interface. It combines a Polynomial Calculator with a Calculus Toolkit, providing operations such as differentiation, integration, polynomial evaluation, and persistent storage using file handling.
 
-The project emphasizes clean code organization, modular programming, and reusable components by separating declarations, implementations, and utility functions into different modules.
+The project demonstrates modern C++ programming concepts, modular software design, and basic numerical computation techniques.
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-### Polynomial Operations
-
-- Create Polynomial
-- Display Polynomial
-- Add Two Polynomials
-- Subtract Two Polynomials
-- Multiply Two Polynomials
-- Evaluate Polynomial at any value of **x**
-- Find Polynomial Degree
+### Polynomial Module
+- Create and store polynomial expressions
+- Display polynomials in mathematical notation
+- Polynomial addition
+- Polynomial subtraction
+- Polynomial multiplication
+- Evaluate polynomial at any value of **x**
+- Determine polynomial degree
 
 ### Calculus Toolkit
+- First derivative
+- Second derivative
+- Indefinite integration
+- Definite integration
+- Tangent line calculation
+- Area under the curve
 
-- First Derivative
-- Second Derivative
-- Indefinite Integration
-- Definite Integration
-- Tangent Line Calculation
-- Area Under the Curve
-
-### Utilities
-
-- Save Polynomial
-- Load Polynomial
-- View Operation History
-- Clear History
-- Input Validation
-- Interactive Menu-driven Interface
+### Utility Module
+- Save polynomial to file
+- Load polynomial from file
+- View operation history
+- Clear history
+- Input validation
+- Menu-driven console interface
 
 ---
 
-## 📂 Project Structure
+## 🏗️ Project Structure
 
 ```text
 PolynomialCalculatorAndCalculusToolkit/
@@ -65,6 +62,7 @@ PolynomialCalculatorAndCalculusToolkit/
 │   └── history.txt
 │
 ├── docs/
+│
 ├── screenshots/
 │
 ├── README.md
@@ -77,18 +75,17 @@ PolynomialCalculatorAndCalculusToolkit/
 
 ## 🛠️ Technologies Used
 
-| Technology | Purpose |
-|------------|---------|
-| C++17 | Programming Language |
-| STL | Dynamic Data Structures |
-| OOP | Software Design |
-| File Handling | Data Storage |
-| VS Code | Development Environment |
-| MinGW (g++) | Compilation |
+- C++17
+- Object-Oriented Programming (OOP)
+- Standard Template Library (STL)
+- File Handling
+- Modular Programming
+- Visual Studio Code
+- MinGW (g++)
 
 ---
 
-## 📚 OOP Concepts Demonstrated
+## 🧩 OOP Concepts Implemented
 
 - Classes & Objects
 - Encapsulation
@@ -96,18 +93,18 @@ PolynomialCalculatorAndCalculusToolkit/
 - Operator Overloading
 - Friend Functions
 - Static Member Functions
-- Modular Programming
+- Modular Design
 - Header and Source File Separation
 
 ---
 
-## ⚙️ Algorithms Implemented
+## 📐 Algorithms Implemented
 
-| Operation | Method Used |
-|-----------|-------------|
-| Polynomial Addition | Coefficient-wise Addition |
-| Polynomial Subtraction | Coefficient-wise Subtraction |
-| Polynomial Multiplication | Nested Loop Multiplication |
+| Operation | Algorithm |
+|-----------|-----------|
+| Polynomial Addition | Coefficient-wise addition |
+| Polynomial Subtraction | Coefficient-wise subtraction |
+| Polynomial Multiplication | Nested-loop multiplication |
 | Polynomial Evaluation | Horner's Method |
 | First Derivative | Power Rule |
 | Second Derivative | Repeated Differentiation |
@@ -116,18 +113,20 @@ PolynomialCalculatorAndCalculusToolkit/
 
 ---
 
-## 💾 Data Storage
+## 📂 Data Storage
 
-The application stores runtime information inside the **data** directory.
+The application stores runtime data in the `data/` directory.
 
-| File | Description |
-|------|-------------|
+| File | Purpose |
+|------|---------|
 | `saved_polynomials.txt` | Stores polynomial coefficients |
-| `history.txt` | Stores operation history |
+| `history.txt` | Stores user operation history |
 
 ---
 
-## 🚀 Compilation
+## ⚙️ Compilation
+
+Compile the project using:
 
 ```bash
 g++ -std=c++17 -Iinclude src/main.cpp src/Polynomial.cpp src/CalculusToolkit.cpp src/Utilities.cpp -o PolynomialCalculator
@@ -135,7 +134,7 @@ g++ -std=c++17 -Iinclude src/main.cpp src/Polynomial.cpp src/CalculusToolkit.cpp
 
 ---
 
-## ▶️ Running the Project
+## ▶️ Running the Application
 
 ### Windows
 
@@ -155,30 +154,30 @@ PolynomialCalculator.exe
 
 This project demonstrates practical implementation of:
 
-- Polynomial Arithmetic
-- Differential Calculus
-- Integral Calculus
+- Polynomial arithmetic
+- Differential calculus
+- Integral calculus
 - Object-Oriented Programming
-- File Handling
-- Modular Software Design
-- Console Application Development
-- Input Validation
+- File handling
+- Modular software development
+- Console application development
+- Exception-safe user input
 
 ---
 
-## 🔮 Future Enhancements
+## 🚀 Future Enhancements
 
 - Polynomial Division
-- Root Finding Algorithms
-- Polynomial Graph Plotting
-- Matrix Calculator Module
-- GUI Version
-- Export Results to PDF
+- Polynomial Root Finder
+- Graph Plotting
+- Matrix Calculator
 - Complex Polynomial Support
+- Graphical User Interface (GUI)
+- Export Results to PDF
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Developer
 
 **Rishikesh Das**
 
@@ -188,6 +187,6 @@ Lovely Professional University
 
 ---
 
-## 📜 License
+## 📄 License
 
-This project has been developed for academic and educational purposes.
+This project was developed for academic and educational purposes.
